@@ -1,4 +1,9 @@
 $primary: #4caf50;
-$link: #4caf50;
+$link: $primary;
+$navbar-item-color: $primary;
+
+div.has-navbar-fixed-top {
+  padding-top: 3.25rem;
+}
 
 @import '~bulma/bulma';

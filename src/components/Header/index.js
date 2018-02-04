@@ -43,9 +43,18 @@ class Header extends Component {
 
           <div className={menuClassList}>
             <div className="navbar-end">
-              <a className="navbar-item">Home</a>
-              <a className="navbar-item">Features</a>
-              <a className="navbar-item">About</a>
+              <a href="#home" className="navbar-item">
+                Home
+              </a>
+              <a href="#explore" className="navbar-item">
+                Explore
+              </a>
+              <a href="#social" className="navbar-item">
+                Social
+              </a>
+              <a href="#visual" className="navbar-item">
+                Visual
+              </a>
             </div>
           </div>
         </nav>

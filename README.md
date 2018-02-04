@@ -1,4 +1,4 @@
-# gatsby-starter-default
+# WeEat website
 
 ## Development
 

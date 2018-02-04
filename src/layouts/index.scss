@@ -6,4 +6,14 @@ div.has-navbar-fixed-top {
   padding-top: 3.25rem;
 }
 
-@import '~bulma/bulma';
+//@import '~bulma/bulma';
+@import '~bulma/sass/utilities/_all';
+@import '~bulma/sass/base/_all';
+@import '~bulma/sass/components/navbar';
+@import '~bulma/sass/elements/button';
+@import '~bulma/sass/elements/content';
+@import '~bulma/sass/elements/container';
+@import '~bulma/sass/elements/title';
+@import '~bulma/sass/grid/columns';
+@import '~bulma/sass/layout/footer';
+@import '~bulma/sass/layout/hero';

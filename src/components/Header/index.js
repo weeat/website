@@ -20,34 +20,36 @@ class Header extends Component {
       ? 'navbar-menu is-active'
       : 'navbar-menu';
     return (
-      <nav
-        className="navbar is-fixed-top"
-        role="navigation"
-        aria-label="main navigation"
-      >
-        <div className="navbar-brand">
-          <Link
-            to="/"
-            className="navbar-item has-text-primary has-text-weight-bold"
-          >
-            WeEat
-          </Link>
+      <header>
+        <nav
+          className="navbar is-fixed-top"
+          role="navigation"
+          aria-label="main navigation"
+        >
+          <div className="navbar-brand">
+            <Link
+              to="/"
+              className="navbar-item has-text-primary has-text-weight-bold"
+            >
+              WeEat
+            </Link>
 
-          <span className={burgerClassList} onClick={this.handleBurgerClick}>
-            <span> </span>
-            <span> </span>
-            <span> </span>
-          </span>
-        </div>
-
-        <div className={menuClassList}>
-          <div className="navbar-end">
-            <a className="navbar-item">Home</a>
-            <a className="navbar-item">Features</a>
-            <a className="navbar-item">About</a>
+            <span className={burgerClassList} onClick={this.handleBurgerClick}>
+              <span> </span>
+              <span> </span>
+              <span> </span>
+            </span>
           </div>
-        </div>
-      </nav>
+
+          <div className={menuClassList}>
+            <div className="navbar-end">
+              <a className="navbar-item">Home</a>
+              <a className="navbar-item">Features</a>
+              <a className="navbar-item">About</a>
+            </div>
+          </div>
+        </nav>
+      </header>
     );
   }
 }

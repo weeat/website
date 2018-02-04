@@ -10,10 +10,14 @@ import './index.scss';
 const TemplateWrapper = ({ children }) => (
   <div className="has-navbar-fixed-top">
     <Helmet
-      title="Gatsby Default Starter"
+      title="WeEat App - Explore, Share and Enjoy your meals every day."
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' }
+        {
+          name: 'description',
+          content:
+            'We eat is a community based place, where you can not only explore and rate new food in an ordinary way, but you can also see how every dish in town looks like, share it with your friends and let others help you in the process of getting your everyday meal'
+        },
+        { name: 'keywords', content: 'explore, discover, food, meals, social' }
       ]}
     />
 

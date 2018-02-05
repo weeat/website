@@ -1,0 +1,9 @@
+{
+  "name": "gatsby-plugin-drift",
+  "description": "Gatsby plugin to add drift chat onto a site",
+  "author": "Artur Klajnerok <a.klajnerok@gmail.com>",
+  "keywords": ["gatsby", "gatsby-plugin", "drift"],
+  "license": "MIT",
+  "main": "index.js"
+}
+

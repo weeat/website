@@ -47,7 +47,7 @@ class Header extends Component {
                 Home
               </a>
               <a href="#explore" className="navbar-item">
-                Explore
+                Discovery
               </a>
               <a href="#social" className="navbar-item">
                 Social

@@ -19,9 +19,12 @@ class IndexPage extends Component {
               </div>
 
               <div className="column">
-                <h1 className="title is-2">Value proposition one</h1>
+                <br />
+                <h1 className="title is-3">A better way to discover food</h1>
+                <br />
                 <h2 className="subtitle">
-                  Explain and showcase value proposition one.
+                  It’s good to know what to eat not only where to eat. Now it is
+                  possible to find the best rated meals around you.
                 </h2>
               </div>
             </div>
@@ -79,9 +82,15 @@ class IndexPage extends Component {
           <div className="container has-text-centered">
             <div className="columns is-vcentered">
               <div className="column">
-                <h1 className="title is-2">Value proposition two</h1>
+                <br />
+                <h1 className="title is-3">
+                  Get food tips from your friends, not strangers
+                </h1>
+                <br />
                 <h2 className="subtitle">
-                  Explain and showcase value proposition two.
+                  Most valuable recommendations are from the people we know
+                  something about. Check your friends activity and let them help
+                  you choose your next delicious meal.
                 </h2>
               </div>
 
@@ -118,9 +127,12 @@ class IndexPage extends Component {
               </div>
 
               <div className="column">
-                <h1 className="title is-2">Value proposition three</h1>
+                <br />
+                <h1 className="title is-3">See what you are going to eat</h1>
+                <br />
                 <h2 className="subtitle">
-                  Explain and showcase value proposition three.
+                  We eat with our eyes. If you like the way the foods looks
+                  like, you’re probably gonna love its taste.
                 </h2>
               </div>
             </div>

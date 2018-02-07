@@ -20,6 +20,16 @@ h2.has-more-line-space {
   margin: auto;
 }
 
+.phone-frame-section {
+  background-image: url('../../static/img/phone.png');
+  height: 500px;
+  width: 245px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+
 //@import '~bulma/bulma';
 @import '~bulma/sass/utilities/_all';
 @import '~bulma/sass/base/_all';

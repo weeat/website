@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
 import IntroSection from '../components/Main/IntroSection';
+import VisualSection from '../components/Main/VisualSection';
 
 class IndexPage extends Component {
   renderExplore() {
@@ -71,45 +72,13 @@ class IndexPage extends Component {
     );
   }
 
-  renderVisual() {
-    return (
-      <section id="visual" className="hero is-primary">
-        <div className="hero-body">
-          <div className="container has-text-centered">
-            <div className="columns is-vcentered">
-              <div className="column">
-                <figure className="image">
-                  <img
-                    src="img/phone.png"
-                    alt="WeEat phone screen"
-                    style={{ height: '500px', width: '245px' }}
-                  />
-                </figure>
-              </div>
-
-              <div className="column">
-                <br />
-                <h1 className="title is-3">See what you are going to eat</h1>
-                <br />
-                <h2 className="subtitle">
-                  We eat with our eyes. If you like the way the foods looks
-                  like, you’re probably gonna love its taste.
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
-
   render() {
     return (
       <div>
         <IntroSection />
         {this.renderExplore()}
         {this.renderSocial()}
-        {this.renderVisual()}
+        <VisualSection />
       </div>
     );
   }

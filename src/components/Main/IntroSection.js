@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Link from 'gatsby-link';
+import React from 'react';
 
 const IntroSection = () => (
   <section id="home" className="hero">
@@ -29,7 +28,7 @@ const IntroSection = () => (
             <div className="phone-frame-intro">
               <figure className="image">
                 <img
-                  src="img/screenshots/explore-dish-list-pizza.png"
+                  src="img/screenshots/explore-dish-list-pizza-small.png"
                   alt="WeEat phone screen"
                   style={{
                     height: '498px',

@@ -9,7 +9,7 @@ const ExploreSection = () => (
             <div className="phone-frame-section">
               <figure className="image">
                 <img
-                  src="img/screenshots/explore-dish-map-pizza.png"
+                  src="img/screenshots/explore-dish-map-pizza-small.png"
                   alt="WeEat phone screen"
                   style={{
                     height: '376px',

@@ -12,9 +12,9 @@ const ExploreSection = () => (
                   src="img/screenshots/explore-dish-map-pizza-small.png"
                   alt="WeEat phone screen"
                   style={{
-                    height: '376px',
-                    width: '217px',
-                    marginTop: '63px'
+                    height: '400px',
+                    width: '232px',
+                    marginTop: '60px'
                   }}
                 />
               </figure>

@@ -19,7 +19,7 @@ const SocialSection = () => (
           </div>
 
           <div className="column">
-            <div className="phone-frame-section">
+            <div className="phone-frame-section phone-frame-shadow">
               <figure className="image">
                 <img
                   src="img/screenshots/activity-screen-small.png"
@@ -27,7 +27,7 @@ const SocialSection = () => (
                   style={{
                     height: '400px',
                     width: '232px',
-                    marginTop: '60px'
+                    marginTop: '48px'
                   }}
                 />
               </figure>

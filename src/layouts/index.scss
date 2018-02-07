@@ -1,4 +1,5 @@
 $primary: #4caf50;
+//$white: #fefff9;
 $link: $primary;
 $navbar-item-color: $primary;
 
@@ -21,7 +22,7 @@ h2.has-more-line-space {
 }
 
 .phone-frame-section {
-  background-image: url('../../static/img/phone.png');
+  background-image: url('../../static/img/phone-white.png');
   height: 520px;
   width: 255px;
   background-position: center center;

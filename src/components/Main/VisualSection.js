@@ -6,7 +6,7 @@ const VisualSection = () => (
       <div className="container has-text-centered">
         <div className="columns is-vcentered">
           <div className="column">
-            <div className="phone-frame-section">
+            <div className="phone-frame-section phone-frame-shadow">
               <figure className="image">
                 <img
                   src="img/screenshots/dish-screen-small.png"
@@ -14,7 +14,7 @@ const VisualSection = () => (
                   style={{
                     height: '400px',
                     width: '232px',
-                    marginTop: '60px'
+                    marginTop: '48px'
                   }}
                 />
               </figure>

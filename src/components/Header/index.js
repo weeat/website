@@ -29,7 +29,7 @@ class Header extends Component {
           <div className="navbar-brand">
             <Link
               to="/"
-              className="navbar-item has-text-primary has-text-weight-bold"
+              className="navbar-item is-size-3 has-text-primary has-text-weight-bold"
             >
               WeEat
             </Link>

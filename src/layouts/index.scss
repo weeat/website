@@ -6,6 +6,20 @@ div.has-navbar-fixed-top {
   padding-top: 3.25rem;
 }
 
+h2.has-more-line-space {
+  line-height: 1.5;
+}
+
+.phone-frame-intro {
+  background-image: url('../../static/img/phone.png');
+  height: 664px;
+  width: 326;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+
 //@import '~bulma/bulma';
 @import '~bulma/sass/utilities/_all';
 @import '~bulma/sass/base/_all';

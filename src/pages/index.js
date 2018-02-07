@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
+import IntroSection from '../components/Main/IntroSection';
+
 class IndexPage extends Component {
   renderExplore() {
     return (
@@ -26,47 +28,6 @@ class IndexPage extends Component {
                   It’s good to know what to eat not only where to eat. Now it is
                   possible to find the best rated meals around you.
                 </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
-
-  renderIntro() {
-    return (
-      <section id="home" className="hero">
-        <div className="hero-body">
-          <div className="container has-text-centered">
-            <div className="columns is-vcentered">
-              <div className="column is-6 is-offset-1">
-                <h1 className="title is-2">
-                  Explore, share and enjoy your meal every day
-                </h1>
-                <h2 className="subtitle is-4">
-                  We eat is a community based place, where you can not only
-                  explore and rate new food in an ordinary way, but you can also
-                  see how every dish in town looks like, share it with your
-                  friends and let others help you in the process of getting your
-                  everyday meal.
-                </h2>
-                <br />
-                <p className="has-text-centered">
-                  <a className="button is-medium is-primary is-outlined">
-                    Google Play
-                  </a>
-                </p>
-              </div>
-
-              <div className="column is-5 content">
-                <figure className="image">
-                  <img
-                    src="img/phone.png"
-                    alt="WeEat phone screen"
-                    style={{ height: '664px', width: '326px' }}
-                  />
-                </figure>
               </div>
             </div>
           </div>
@@ -145,7 +106,7 @@ class IndexPage extends Component {
   render() {
     return (
       <div>
-        {this.renderIntro()}
+        <IntroSection />
         {this.renderExplore()}
         {this.renderSocial()}
         {this.renderVisual()}

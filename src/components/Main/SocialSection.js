@@ -8,7 +8,7 @@ const SocialSection = () => (
           <div className="column">
             <br />
             <h1 className="title is-3 has-text-primary">
-              Get food tips from your friends, not strangers
+              Get food tips from your friends
             </h1>
             <br />
             <h2 className="subtitle has-more-line-space">

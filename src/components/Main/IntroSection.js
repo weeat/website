@@ -5,7 +5,7 @@ const IntroSection = () => (
     <div className="hero-body">
       <div className="container has-text-centered">
         <div className="columns is-vcentered">
-          <div className="column is-6 is-offset-1">
+          <div className="column">
             <div className="has-text-left">
               <h1 className="title is-3 is-spaced has-text-primary">
                 Explore, Discover, Eat and Share
@@ -24,16 +24,16 @@ const IntroSection = () => (
             </p>
           </div>
 
-          <div className="column is-5">
-            <div className="phone-frame-intro">
+          <div className="column">
+            <div className="phone-frame-intro phone-frame-shadow">
               <figure className="image">
                 <img
                   src="img/screenshots/explore-dish-list-pizza-small.png"
                   alt="WeEat phone screen"
                   style={{
-                    height: '498px',
-                    width: '288px',
-                    marginTop: '84px'
+                    height: '510px',
+                    width: '296px',
+                    marginTop: '61px'
                   }}
                 />
               </figure>

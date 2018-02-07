@@ -11,9 +11,9 @@ h2.has-more-line-space {
 }
 
 .phone-frame-intro {
-  background-image: url('../../static/img/phone.png');
-  height: 664px;
-  width: 326;
+  background-image: url('../../static/img/phone-white.png');
+  height: 656px;
+  width: 320px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -28,6 +28,11 @@ h2.has-more-line-space {
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
+}
+
+.phone-frame-shadow {
+  -webkit-filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.4));
 }
 
 //@import '~bulma/bulma';

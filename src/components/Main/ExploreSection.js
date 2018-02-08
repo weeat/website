@@ -13,7 +13,7 @@ const ExploreSection = () => (
             <div className="phone-frame-section phone-frame-shadow">
               <figure className="image">
                 <img
-                  src="img/screenshots/explore-dish-map-pizza.png"
+                  src="img/screenshots/explore-dish-map-pizza-small.png"
                   alt="WeEat - explore map phone screen"
                   className="phone-screen-section"
                 />

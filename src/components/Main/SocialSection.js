@@ -22,7 +22,7 @@ const SocialSection = () => (
             <div className="phone-frame-section phone-frame-shadow">
               <figure className="image">
                 <img
-                  src="img/screenshots/activity-screen.png"
+                  src="img/screenshots/activity-screen-small.png"
                   alt="WeEat - friends activity phone screen"
                   className="phone-screen-section"
                 />

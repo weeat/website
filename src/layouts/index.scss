@@ -1,4 +1,4 @@
-$primary: #4caf50;
+$primary: #35b35b;
 //$white: #fefff9;
 $link: $primary;
 $navbar-item-color: $primary;
@@ -40,6 +40,11 @@ h2.has-more-line-space {
   height: 450px;
   width: 261px;
   margin-top: 52px;
+}
+
+svg.separator {
+  width: 100%;
+  height: 50px;
 }
 
 //@import '~bulma/bulma';

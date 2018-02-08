@@ -1,7 +1,10 @@
 import React from 'react';
 
+import PolygonTop from '../Separator/PolygonTop';
+
 const VisualSection = () => (
   <section id="visual" className="hero is-primary">
+    <PolygonTop />
     <div className="hero-body">
       <div className="container has-text-centered">
         <div className="columns is-vcentered">

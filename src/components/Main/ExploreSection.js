@@ -9,13 +9,9 @@ const ExploreSection = () => (
             <div className="phone-frame-section phone-frame-shadow">
               <figure className="image">
                 <img
-                  src="img/screenshots/explore-dish-map-pizza-small.png"
-                  alt="WeEat phone screen"
-                  style={{
-                    height: '400px',
-                    width: '232px',
-                    marginTop: '48px'
-                  }}
+                  src="img/screenshots/explore-dish-map-pizza.png"
+                  alt="WeEat - explore map phone screen"
+                  className="phone-screen-section"
                 />
               </figure>
             </div>

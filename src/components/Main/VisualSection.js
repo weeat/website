@@ -9,13 +9,9 @@ const VisualSection = () => (
             <div className="phone-frame-section phone-frame-shadow">
               <figure className="image">
                 <img
-                  src="img/screenshots/dish-screen-small.png"
-                  alt="WeEat phone screen"
-                  style={{
-                    height: '400px',
-                    width: '232px',
-                    marginTop: '48px'
-                  }}
+                  src="img/screenshots/dish-screen.png"
+                  alt="WeEat - meal phone screen"
+                  className="phone-screen-section"
                 />
               </figure>
             </div>

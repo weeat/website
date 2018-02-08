@@ -23,8 +23,8 @@ h2.has-more-line-space {
 
 .phone-frame-section {
   background-image: url('../../static/img/phone-white.png');
-  height: 520px;
-  width: 255px;
+  height: 580px;
+  width: 283px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -34,6 +34,12 @@ h2.has-more-line-space {
 .phone-frame-shadow {
   -webkit-filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.4));
   filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.4));
+}
+
+.phone-screen-section {
+  height: 450px;
+  width: 261px;
+  margin-top: 52px;
 }
 
 //@import '~bulma/bulma';

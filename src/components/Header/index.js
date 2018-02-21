@@ -26,35 +26,45 @@ class Header extends Component {
           role="navigation"
           aria-label="main navigation"
         >
-          <div className="navbar-brand">
-            <Link
-              to="/"
-              className="navbar-item is-size-3 has-text-primary has-text-weight-bold"
-            >
-              WeEat
-            </Link>
+          <div className="container">
+            <div className="navbar-brand">
+              <Link
+                to="/"
+                className="navbar-item is-size-3 has-text-primary has-text-weight-bold"
+              >
+                WeEat
+              </Link>
 
-            <span className={burgerClassList} onClick={this.handleBurgerClick}>
-              <span> </span>
-              <span> </span>
-              <span> </span>
-            </span>
-          </div>
+              <span
+                className={burgerClassList}
+                onClick={this.handleBurgerClick}
+              >
+                <span> </span>
+                <span> </span>
+                <span> </span>
+              </span>
+            </div>
 
-          <div className={menuClassList}>
-            <div className="navbar-end">
-              <a href="#home" className="navbar-item">
-                Home
-              </a>
-              <a href="#explore" className="navbar-item">
-                Discovery
-              </a>
-              <a href="#social" className="navbar-item">
-                Social
-              </a>
-              <a href="#visual" className="navbar-item">
-                Visual
-              </a>
+            <div className={menuClassList}>
+              <div className="navbar-end">
+                <a href="#home" className="navbar-item">
+                  Home
+                </a>
+                <a href="#explore" className="navbar-item">
+                  Discovery
+                </a>
+                <a href="#social" className="navbar-item">
+                  Social
+                </a>
+                <a href="#visual" className="navbar-item">
+                  Visual
+                </a>
+                <div className="navbar-item">
+                  <a href="#subscribe" className="button is-primary">
+                    Subscribe
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </nav>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
+import EmailSection from '../components/Main/EmailSection';
 import ExploreSection from '../components/Main/ExploreSection';
 import IntroSection from '../components/Main/IntroSection';
 import SocialSection from '../components/Main/SocialSection';
@@ -14,6 +15,7 @@ class IndexPage extends Component {
         <ExploreSection />
         <SocialSection />
         <VisualSection />
+        <EmailSection />
       </div>
     );
   }

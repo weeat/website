@@ -1,5 +1,7 @@
 import React from 'react';
 
+import EmailSubscribeForm from '../EmailSubscribeForm';
+
 const IntroSection = () => (
   <section id="home" className="hero">
     <div className="hero-body">
@@ -17,11 +19,10 @@ const IntroSection = () => (
               </h2>
             </div>
             <br />
-            <p className="has-text-centered">
-              <a className="button is-medium is-primary is-outlined">
-                Google Play
-              </a>
-            </p>
+            <br />
+
+            <EmailSubscribeForm />
+            <br />
           </div>
 
           <div className="column">

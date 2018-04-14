@@ -76,7 +76,7 @@ class EmailSubscribeForm extends React.Component {
         ) : (
           <div>
             <p className="title is-4">
-              Want to find the best the food?<br /> Request early access!
+              Want to find the best food?<br /> Request early access!
             </p>
             <form id="email-capture" method="post" noValidate>
               <div className="field has-addons has-addons-centered">

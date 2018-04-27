@@ -12,7 +12,7 @@ const VisualSection = () => (
             <div className="phone-frame-section phone-frame-shadow">
               <figure className="image">
                 <img
-                  src="img/screenshots/dish-screen-small.png"
+                  src="img/screenshots/dish-screen-social-small.png"
                   alt="WeEat - meal phone screen"
                   className="phone-screen-section"
                 />

@@ -29,7 +29,7 @@ const IntroSection = () => (
             <div className="phone-frame-intro phone-frame-shadow">
               <figure className="image">
                 <img
-                  src="img/screenshots/explore-dish-list-pizza-small.png"
+                  src="img/screenshots/explore-dish-list-pizza-social-small.png"
                   alt="WeEat phone screen"
                   style={{
                     height: '510px',

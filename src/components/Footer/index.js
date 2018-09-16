@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import { FaFacebookSquare, FaInstagram, FaTwitter } from 'react-icons/fa';
+import FacebookIcon from 'react-icons/lib/fa/facebook-official';
+import InstagramIcon from 'react-icons/lib/fa/instagram';
+import TwitterIcon from 'react-icons/lib/fa/twitter';
 
 const Footer = () => (
   <footer className="footer">
@@ -10,22 +12,13 @@ const Footer = () => (
         {' '}
         Fallow us on:
         <a href="https://www.instagram.com/getweeat/">
-          <FaInstagram
-            size={30}
-            style={{ marginLeft: '10px', verticalAlign: 'middle' }}
-          />
+          <InstagramIcon size={30} style={{ marginLeft: '10px' }} />
         </a>
         <a href="https://www.facebook.com/getweeat/">
-          <FaFacebookSquare
-            size={30}
-            style={{ marginLeft: '10px', verticalAlign: 'middle' }}
-          />
+          <FacebookIcon size={30} style={{ marginLeft: '10px' }} />
         </a>
         <a href="https://twitter.com/getweeat">
-          <FaTwitter
-            size={30}
-            style={{ marginLeft: '10px', verticalAlign: 'middle' }}
-          />
+          <TwitterIcon size={30} style={{ marginLeft: '10px' }} />
         </a>
       </h2>
       <p>
